@@ -1,0 +1,246 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.lite.pits_jawwal.pitstracklite.Reports">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:elevation="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/butt_previous"
+            android:layout_width="25dp"
+            android:layout_height="60dp"
+            android:elevation="5dp"
+            android:src="@drawable/leftarrow" />
+
+        <ImageView
+            android:id="@+id/butt_next"
+            android:layout_width="25dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/butt_previous"
+            android:elevation="5dp"
+            app:srcCompat="@drawable/rightarrow" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/layout_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:visibility="visible">
+            <Spinner
+                android:id="@+id/event_type"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dedddd"
+                />
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                android:id="@+id/select_car"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="@string/select_vehicles"
+                android:textAlignment="center"
+                android:textColor="@color/color_text_black"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dedddd"
+                />
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                android:id="@+id/txt_date"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/butt_next"
+                android:layout_toStartOf="@+id/butt_next"
+                android:gravity="center"
+                android:textColor="@color/color_text_black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dedddd"
+                />
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                android:id="@+id/but_generate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/Generate"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bordershadow"
+            android:orientation="horizontal"
+
+            android:weightSum="5"
+            >
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="35dp">
+                <ImageView
+                    android:weightSum="2"
+                    android:id="@+id/txt_sort"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/descendant"
+                    android:tint="@color/colorPrimary"
+                    android:layout_marginStart="4dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:layout_marginStart="80dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="80dp">
+
+
+                <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/arrow"
+                    android:tint="@color/colorPrimary"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="4dp" />
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                    android:id="@+id/txt_select_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#7A7F78"
+                    android:textAlignment="viewEnd"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:gravity="end" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutmap"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/map_end"
+                android:layout_width="60dp"
+                android:layout_height="33dp"
+                android:layout_gravity="right"
+                android:background="@null"
+                android:elevation="5dp"
+                android:text="×"
+                android:textSize="30dp" />
+
+            <WebView
+                android:id="@+id/show_map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"></WebView>
+            <!--<com.mapbox.mapboxsdk.maps.MapView-->
+                <!--android:id="@+id/mapView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"-->
+                <!--mapbox:mapbox_cameraZoom="11" />-->
+            <View
+                android:id="@+id/line7"
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_weight="1"
+                android:background="#ccc"
+                android:padding="2dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linlaHeaderProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"></ProgressBar>
+        </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+            android:id="@+id/list_event"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            />
+      </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/no_events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/str18"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp" />
+    </LinearLayout>
+</RelativeLayout>
+</FrameLayout>

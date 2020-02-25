@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        card_view:cardBackgroundColor="#000"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="4dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp">
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                android:id="@+id/txt_feilds"
+                android:layout_width="wrap_content"
+                android:maxWidth="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#220404"
+                android:textSize="12sp"
+                android:drawableStart="@drawable/cancel2"
+                android:drawableLeft="@drawable/cancel2" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

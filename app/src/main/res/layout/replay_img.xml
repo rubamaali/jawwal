@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/outgoing_bubble"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loading_"
+            android:maxHeight="250dp"
+            android:maxWidth="250dp"
+            android:padding="5dp"
+            android:textColor="#229091"
+            android:layout_marginEnd="12dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="09:11:59 23 sep 2017"
+        android:textColor="@color/color_text_black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/time"
+        android:layout_toStartOf="@+id/time"
+        android:drawableEnd="@drawable/show_time2"
+        android:drawableRight="@drawable/show_time2"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:textColor="#686e6e"
+        android:textSize="10dp" />
+
+    <ProgressBar
+        android:id="@+id/pbHeaderProgress"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_toLeftOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout"
+        android:elevation="5dp" />
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_toLeftOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="!"
+        android:textColor="#E03D2F"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>

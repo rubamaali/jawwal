@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.lite.pits_jawwal.pitstracklite.Vehicles">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:id="@+id/linlaHeaderProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/pbHeaderProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp" />
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="256dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:queryHint="Search..." />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                    android:id="@+id/but_ref"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/reload"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:visibility="visible" />
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                    android:id="@+id/but_on"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="On"
+                    android:textAllCaps="false"
+                    android:textColor="#18E20D"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                    android:id="@+id/but_off"
+                    android:layout_width="41dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/but_ref"
+                    android:layout_toEndOf="@+id/but_on"
+                    android:layout_toRightOf="@+id/but_on"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:text="Off"
+                    android:textAllCaps="false"
+                    android:textColor="#F34E1D"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="2dp"
+    android:id="@+id/listBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@id/imgV"
+            android:layout_toRightOf="@+id/distance"
+
+            >
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:id="@+id/textV"
+                android:text="مطعم مطعم"
+                android:textColor="#9aa1a4"
+                android:paddingTop="3dp"
+                android:textDirection="rtl"
+                android:paddingRight="5dp"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_all"
+            android:tint="@color/colorPrimary"
+            android:id="@+id/imgV"/>
+
+        <TextView
+            android:layout_alignParentEnd="true"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:textSize="13dp"
+
+            android:paddingTop="5dp"
+            android:id="@+id/distance"
+            android:paddingLeft="10dp"
+            android:textDirection="ltr"
+            android:textColor="#9aa1a4"
+            android:layout_alignParentRight="true" />
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/check_in"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/check_in"
+            android:backgroundTint="#229091"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/distance"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

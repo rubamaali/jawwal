@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/incoming_bubble"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="top"
+            android:paddingLeft="15dp"
+            android:text="test"
+            android:textColor="#535353"
+            android:textSize="14sp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loading_"
+            android:maxHeight="250dp"
+            android:maxWidth="250dp"
+            android:padding="5dp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:text="09:11:59 23 sep 2017"
+        android:textColor="@color/color_text_black"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tagcell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+        android:id="@+id/tag_name"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/tag55"
+        android:text="ffdsfssfsf"
+        android:textColor="#787A7A"
+        android:textSize="14sp" />
+
+</RelativeLayout>

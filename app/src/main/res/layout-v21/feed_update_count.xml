@@ -1,0 +1,31 @@
+
+<FrameLayout
+    android:id="@+id/noticlick"
+style="?attr/actionButtonStyle"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:clipToPadding="false"
+android:focusable="true">
+
+<ImageView
+    android:layout_width="22dp"
+    android:layout_height="22dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_replaynoti"/>
+
+<TextView
+    android:id="@+id/cart_badge"
+    android:layout_width="wrap_content"
+    android:layout_height="22dp"
+    android:minWidth="22dp"
+    android:layout_gravity="right|end|top"
+    android:layout_marginEnd="-5dp"
+    android:layout_marginRight="-5dp"
+    android:background="@drawable/shape_notification"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:text="4"
+    android:textSize="10sp"/>
+
+</FrameLayout>

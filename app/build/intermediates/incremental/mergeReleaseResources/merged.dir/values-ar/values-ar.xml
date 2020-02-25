@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ATM">صراف آلي</string>
+    <string name="Accident">حادث</string>
+    <string name="Address">العنوان</string>
+    <string name="All">الكل</string>
+    <string name="Bank">بنك</string>
+    <string name="Beginning">بداية العمل</string>
+    <string name="CANCEL">إلغاء</string>
+    <string name="Cinema">سينما</string>
+    <string name="Clothing_Store">متجر ملابس</string>
+    <string name="Coffee_Shop">مقهى</string>
+    <string name="Company">شركة</string>
+    <string name="Court">محكمة</string>
+    <string name="Details">التفاصيل </string>
+    <string name="Direction">إتجاه المركبة</string>
+    <string name="Door">الباب</string>
+    <string name="Door_close">الباب - إغلاق</string>
+    <string name="Door_open">الباب - فتح</string>
+    <string name="Driver">السائق</string>
+    <string name="Emergency">طوارئ</string>
+    <string name="End">نهاية العمل</string>
+    <string name="Entering_perimeter">دخول</string>
+    <string name="Event">الحدث</string>
+    <string name="Events">الاحداث</string>
+    <string name="Factory">مصنع</string>
+    <string name="Fitness_Center">مركز لياقة</string>
+    <string name="Generate">موافق</string>
+    <string name="Harsh_Braking">بريك مفاجئ</string>
+    <string name="Hight">الإرتفاع</string>
+    <string name="Home">منزل</string>
+    <string name="Hospital">مستشفى</string>
+    <string name="Hotel">فندق</string>
+    <string name="Ignition_On">تشغيل المركبة</string>
+    <string name="Immobilizer">أمر الإيقاف</string>
+    <string name="Internal_Battery">البطارية الداخلية</string>
+    <string name="Key">الحالة</string>
+    <string name="Leaving_perimeter">خروج</string>
+    <string name="Library">مكتبة</string>
+    <string name="LostTime">الوقت الضائع</string>
+    <string name="Main_Power_Low">خلل في البطارية</string>
+    <string name="Medical_Laboratory">مختبر طبي</string>
+    <string name="Mileage_KM">المسافة المقطوعة</string>
+    <string name="Monitor_Event">مراقبة الأحداث</string>
+    <string name="Mosque">مسجد</string>
+    <string name="Museum">متحف</string>
+    <string name="Mute">كتم</string>
+    <string name="Navigate">وصول الى</string>
+    <string name="Notification">الأشعارات</string>
+    <string name="Odometer">عدد الكيلومترات</string>
+    <string name="Other">غير ذلك</string>
+    <string name="Outside_Work_time">التشغيل خارج الدوام</string>
+    <string name="Outside_Work_time_KM">الكيلومترات خارج الدوام</string>
+    <string name="Park">منتزه</string>
+    <string name="Petrol_Station">محطة وقود</string>
+    <string name="Pharmacy">صيدلية</string>
+    <string name="Physician">عيادة طبية</string>
+    <string name="Police_Office">مركز شرطة</string>
+    <string name="Quantity">الكمية </string>
+    <string name="Relatedeport">التقارير المرتبطة</string>
+    <string name="Restaurant">مطعم</string>
+    <string name="School">مدرسة</string>
+    <string name="Shopping_Center">مركز تسوق</string>
+    <string name="Siren_off">صفارة - إطفاء</string>
+    <string name="Siren_on">صفارة - تشغيل</string>
+    <string name="Sound">عام</string>
+    <string name="Speed">السرعة</string>
+    <string name="Speed_Violation">تجاوز السرعة</string>
+    <string name="Square_Roundabout">دوار</string>
+    <string name="Stadium">ملعب رياضي</string>
+    <string name="Street">شارع</string>
+    <string name="Supermarket">سوبر ماركت</string>
+    <string name="Temperature">الحرارة</string>
+    <string name="Theft">سرقة</string>
+    <string name="Time">الوقت</string>
+    <string name="Time_Period">المده: </string>
+    <string name="Top_Speed">أعلى سرعة: </string>
+    <string name="Traveled_Trips">الرحلات المقطوعة</string>
+    <string name="Trip">الرحلة</string>
+    <string name="University">جامعة</string>
+    <string name="Vehicle_Battery">البطارية </string>
+    <string name="Vehicle_History">تاريخ وحدة التتبع</string>
+    <string name="Vehicle_Information">معلومات وحدة التتبع</string>
+    <string name="Vehicle_off">إطفاء المركبة</string>
+    <string name="Vehicle_on">تشغيل المركبة</string>
+    <string name="Work_Hours">ساعات العمل - الرحلات</string>
+    <string name="Work_Hours_Period">التشغيل خلال الدوام</string>
+    <string name="Work_Hours_Period_KM">الكيلومترات خلال الدوام</string>
+    <string name="Work_Hours_Period_p">النسبة خلال الدوام</string>
+    <string name="Work_Reports">تقارير العمل</string>
+    <string name="Work_hours_e">ساعات عمل - الموظفين</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="add_location">إضافة موقع</string>
+    <string name="addfrom">من</string>
+    <string name="address">العنوان</string>
+    <string name="addto">الى</string>
+    <string name="allreplies">جميع الردود</string>
+    <string name="app_name">PITS Track</string>
+    <string name="arabic">عربي</string>
+    <string name="attachment">مرفقات</string>
+    <string name="call">اتصال</string>
+    <string name="cancel_button">عدم إظهار مرة ثانية</string>
+    <string name="category">التصنيف</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="control">التحكم</string>
+    <string name="customer">الزبون</string>
+    <string name="customer_po">الزبون: </string>
+    <string name="customernameerror">عذرا لا يمكن ارسال بدون تحديد اسم الزبون</string>
+    <string name="date_p">تاريخ الطلبية: </string>
+    <string name="distance_done">مسافة الانهاء: </string>
+    <string name="distance_write">مسافة الكتابة: </string>
+    <string name="done_address">عنوان الانهاء: </string>
+    <string name="done_time">وقت الانهاء: </string>
+    <string name="drawer_close">drawer is close</string>
+    <string name="drawer_open">drawer is open</string>
+    <string name="edit">تعديل</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="endtrip">نهاية الرحلة</string>
+    <string name="english">إنجليزي</string>
+    <string name="enter_password">كلمة السر</string>
+    <string name="enter_username">اسم المستخدم</string>
+    <string name="enterroute">دخول  المسار</string>
+    <string name="event">التنبيهات</string>
+    <string name="exitroute">خروج  المسار</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="full_name">الأسم الكامل</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="gmt">التوقيت</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_mag">التقرير الظاهر لتاريخ</string>
+    <string name="idlingrep">تقرير السكون</string>
+    <string name="info">معلومات وحدة التتبع</string>
+    <string name="km">كم</string>
+    <string name="km_h">كم/س</string>
+    <string name="language">اللغة</string>
+    <string name="last_update">التحديث الاخير</string>
+    <string name="later">في وقت لاحق</string>
+    <string name="loadMore">اظهار المزيد</string>
+    <string name="loading">لحظة من فضلك ..</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="map">الخريطة</string>
+    <string name="meters">عداد كم</string>
+    <string name="mobile">الهاتف</string>
+    <string name="morereplay">لا يوجد ردود اضافية</string>
+    <string name="morereport">لايوجد تقارير اضافية</string>
+    <string name="msg">رسالة</string>
+    <string name="name">الاسم</string>
+    <string name="ok">تأكيد</string>
+    <string name="order">الاصناف</string>
+    <string name="order_history">الطلبات</string>
+    <string name="password">كلمة السر</string>
+    <string name="phone">المحمول</string>
+    <string name="place_autocomplete_search_hint">بحث</string>
+    <string name="postponed">مؤجل</string>
+    <string name="price">السعر </string>
+    <string name="price_">السعر</string>
+    <string name="product">المنتح </string>
+    <string name="replies">ردود</string>
+    <string name="reply">رد</string>
+    <string name="report">التقارير</string>
+    <string name="report1">تقرير ساعات العمل - الرحلات </string>
+    <string name="report2">تقرير تاريخ وحدة التتبع</string>
+    <string name="report_replay">الردود</string>
+    <string name="save"> حفظ </string>
+    <string name="saveph">تم حفظ الصورة</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="select_loc"> نوع المكان *</string>
+    <string name="select_location">تحديد الموقع</string>
+    <string name="select_vehicles">اختر وحدة تتبع</string>
+    <string name="send">إرسال</string>
+    <string name="share_few_words">رأيك بإختصار</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="sms">SMS</string>
+    <string name="sms_message"><![CDATA[ From : %1$s<br/>%2$s]]></string>
+    <string name="startrip">بداية الرحلة</string>
+    <string name="status">الحالة</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stops_hours">ساعات الايقاف</string>
+    <string name="str12">الجهاز غير متصل بشبكة الانترنت</string>
+    <string name="str13">خطأ في كلمة السر !</string>
+    <string name="str14">جميع التنبيهات</string>
+    <string name="str15">جميع وحدات التتبع</string>
+    <string name="str16">الرجاء اختيار وحدة تتبع !</string>
+    <string name="str17">لايوجد تقارير !</string>
+    <string name="str18">لايوجد تنبيهات !</string>
+    <string name="str27">تم الارسال بنجاح</string>
+    <string name="str3">شاركنا تجربتك لتطبيق PITS Track</string>
+    <string name="str33">كن حذر !</string>
+    <string name="str34">أنت على وشك إرسال أمر هل أنت متأكد!</string>
+    <string name="str35">مهمة جديدة</string>
+    <string name="str36">حصل مشكلة !اعد المحاولة</string>
+    <string name="str38">مهمه جديده الى:</string>
+    <string name="str40">الرجاء الاختيار ....</string>
+    <string name="str43">تم الرد على التقرير الخاص بك من قبل </string>
+    <string name="str44">تم اتباع مرفق على التقرير الخاص بك من قبل</string>
+    <string name="str45">تم ارسال مهمه جديدة من قبل</string>
+    <string name="str46">تم ارسال تقرير جديدة من قبل</string>
+    <string name="str_pass1">تعديل المعلومات</string>
+    <string name="str_pass2">الرجاء إدخال كلمة المرور.</string>
+    <string name="tags">علامات</string>
+    <string name="task">مهمه</string>
+    <string name="thank">شكرا لاستخدامك تطبيق PITS Track</string>
+    <string name="total_odometer">مجموع الكيلومترات: </string>
+    <string name="total_time">total time</string>
+    <string name="totalprice">المبلغ الكلي: </string>
+    <string name="update">تحديث</string>
+    <string name="url">Pick a server</string>
+    <string name="vehicle_control">إرسال الأوامر</string>
+    <string name="vehicle_details">تفاصيل إضافية</string>
+    <string name="visitsreport">تقرير الزيارات</string>
+    <string name="youAreNotUpdatedMessage">يتوفر إصدار جديد من PITS Track.الرجاء التحديث الى الاصدار</string>
+    <string name="youAreNotUpdatedMessage1">الان </string>
+    <string name="youAreNotUpdatedTitle">التحديث</string>
+</resources>

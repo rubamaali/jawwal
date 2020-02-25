@@ -1,0 +1,4 @@
+#Mon Feb 24 14:46:32 IST 2020
+base.0=D\:\\rubamaali\\AllAndroidProject\\final_project\\jawwal\\jawwal\\jawwal\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

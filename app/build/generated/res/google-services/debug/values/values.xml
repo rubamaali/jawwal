@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pits-track.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">897801649201</string>
+    <string name="google_api_key" translatable="false">AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM</string>
+    <string name="google_app_id" translatable="false">1:897801649201:android:6ef3be2096998c6cc4e910</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM</string>
+    <string name="google_storage_bucket" translatable="false">pits-track.appspot.com</string>
+    <string name="project_id" translatable="false">pits-track</string>
+</resources>

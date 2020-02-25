@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:gravity="center"
+                >
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:text="@string/customer_po"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/color_text_black"
+                    android:textSize="13sp"
+                    android:paddingEnd="5dp"
+                    android:paddingRight="5dp" />
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                    android:id="@+id/custom_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/color_text_black"
+                    android:textSize="13sp"
+                    android:gravity="start" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginTop="5dp"
+                >
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/txt"
+                    android:textSize="11sp"
+                    android:text="@string/date_p"
+                    android:gravity="start" />
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                    android:id="@+id/txt_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/txt"
+                    android:textSize="11sp"
+                    android:paddingEnd="5dp"
+                    android:paddingRight="5dp"
+                    android:gravity="start" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#DDD9D9"
+            />
+
+            <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id = "@+id/relativeLayout1"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:background="#DDD9D9"
+        >
+
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text="@string/product"
+            android:textColor = "#000" />
+
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text="@string/Quantity"
+            android:textColor = "#000"/>
+
+        <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:gravity = "center"
+            android:padding = "5dp"
+            android:text = "@string/price_"
+            android:textColor = "#000" />
+
+    </LinearLayout>
+             <ListView
+                android:id = "@+id/listview_item"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:divider = "@null"/>
+
+
+</LinearLayout>
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wait"
+        layout="@layout/activity_wait"
+        android:visibility="gone"
+        />
+</RelativeLayout>

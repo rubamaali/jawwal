@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#EBF3E5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            >
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="name"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                android:id="@+id/txt_driver_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/name"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/name"
+                android:text="test"
+                android:textColor="#212121"
+                android:textSize="11sp" />
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                android:id="@+id/txt_driver_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_driver_name"
+                android:layout_alignStart="@+id/name"
+                android:layout_alignLeft="@+id/name"
+                android:text="0595720830"
+                android:textColor="#6496E9"
+                android:textColorLink="#6496E9"
+                android:textSize="11sp"
+                android:textStyle="normal|bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout16"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txt_driver_phone"
+                android:layout_marginTop="8dp"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="280dp"
+                    android:layout_height="1dip"
+                    android:background="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_on_off"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/v_speed"
+                android:layout_alignTop="@+id/name"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/car_on"
+                android:tint="#F3150D" />
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                android:id="@+id/v_speed"
+                android:layout_width="43dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/img_on_off"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="40"
+                android:textAlignment="center"
+                android:textColor="@color/color_text_black"
+                android:textSize="13sp" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout16"
+                android:background="#EEE9E9">
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="نابلس نابلس.ش.فلسطين,Nablus Nablus.Palestine    "
+                    android:textAlignment="center"
+                    android:textColor="#5A89D7"
+                    android:textSize="12sp" />
+
+                <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+                    android:id="@+id/last_updte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/address"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:text="2017/07/31 14:34:55"
+                    android:textColor="@color/color_text_black"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

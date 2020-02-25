@@ -1,0 +1,236 @@
+{
+  "project_info": {
+    "project_number": "897801649201",
+    "firebase_url": "https://pits-track.firebaseio.com",
+    "project_id": "pits-track",
+    "storage_bucket": "pits-track.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897801649201:android:1ed2d123104d6cd9",
+        "android_client_info": {
+          "package_name": "com.example.ruba_pits.pitstracklite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897801649201-r5neulfo4370i2eqccgaovq4i8vs3dns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ruba_pits.pitstracklite",
+            "certificate_hash": "adde71fa30d736a1bcf863cb91ac562a310de5f8"
+          }
+        },
+        {
+          "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897801649201-c2sgfe498pa7iq99khanq7kir1nvrd57.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pits.PITSonal",
+                "app_store_id": "1335077363"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897801649201:android:6ef3be2096998c6cc4e910",
+        "android_client_info": {
+          "package_name": "com.lite.pits_jawwal.pitstracklite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897801649201-p2vl62r076dicg6s6tb59q0landp3732.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lite.pits_jawwal.pitstracklite",
+            "certificate_hash": "8e8d4a0140e4e02b7f154f06598b7327f7351800"
+          }
+        },
+        {
+          "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897801649201-c2sgfe498pa7iq99khanq7kir1nvrd57.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pits.PITSonal",
+                "app_store_id": "1335077363"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897801649201:android:bf756caccec34a1f",
+        "android_client_info": {
+          "package_name": "com.lite.ruba_pits.pitstracklite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897801649201-q93p0irda2gsl5d7frtucsbfdm4nhion.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lite.ruba_pits.pitstracklite",
+            "certificate_hash": "adde71fa30d736a1bcf863cb91ac562a310de5f8"
+          }
+        },
+        {
+          "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897801649201-c2sgfe498pa7iq99khanq7kir1nvrd57.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pits.PITSonal",
+                "app_store_id": "1335077363"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897801649201:android:5c9d0751a4e02ab2c4e910",
+        "android_client_info": {
+          "package_name": "com.pitsonal.pits_jawwal.pitslocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897801649201-2kfa1loiiq4ed5k0na1sd407vk4ljkgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pitsonal.pits_jawwal.pitslocation",
+            "certificate_hash": "8e8d4a0140e4e02b7f154f06598b7327f7351800"
+          }
+        },
+        {
+          "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897801649201-c2sgfe498pa7iq99khanq7kir1nvrd57.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pits.PITSonal",
+                "app_store_id": "1335077363"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897801649201:android:e829c6fb701236b1",
+        "android_client_info": {
+          "package_name": "com.pitsonal.ruba_pits.pitslocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897801649201-huqkhb3eq5s1n1uj3jgmrksc18ifamcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pitsonal.ruba_pits.pitslocation",
+            "certificate_hash": "adde71fa30d736a1bcf863cb91ac562a310de5f8"
+          }
+        },
+        {
+          "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmaEzN5fPx492Jz3nvaPRi4ZPddL0pPlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897801649201-aeprl112lq2v4bnadi2ainkimje6tkvm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "897801649201-c2sgfe498pa7iq99khanq7kir1nvrd57.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pits.PITSonal",
+                "app_store_id": "1335077363"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

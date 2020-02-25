@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#DEDEDE"
+        android:gravity="center_vertical|center_horizontal">
+
+
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="@string/thank"
+        android:textAlignment="center"
+        android:textColor="@color/color_text_black"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView7"
+        android:gravity="center"
+        android:id="@+id/imag_pits"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo_mini"
+            tools:ignore="ContentDescription"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo2"
+            android:padding="15dp"
+            tools:ignore="ContentDescription"
+            android:layout_centerHorizontal="true"
+            />
+    </LinearLayout>
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info@pits-track.com"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_below="@+id/imag_pits"
+        />
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="PITS © 2019"
+        android:textAlignment="center"
+        android:textColor="@color/color_text_black"
+        android:textSize="10sp"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:background="#cccccc"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewL
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str3"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/color_text_black"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/face"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="155dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/f1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/angry"
+            android:elevation="0dp"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/f2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sad"
+            android:contentDescription=""
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/f3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/simple"
+            android:contentDescription=""
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/f4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/happy"
+            android:contentDescription=""
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="239dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <ImageButton
+            android:id="@+id/f5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/like"
+            android:contentDescription=""
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="316dp"
+            tools:layout_editor_absoluteY="124dp" />
+    </LinearLayout>
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomEditeTextL
+        android:id="@+id/ed_msg"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:background="@drawable/text_mesage"
+        android:ems="10"
+        android:hint="@string/share_few_words"
+        android:inputType="textMultiLine|textPersonName"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/face"
+        android:textSize="15sp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+        android:id="@+id/but_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/send"
+        android:textColor="@color/color_text_black"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ed_msg"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
+
+    </ScrollView>

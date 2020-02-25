@@ -1,0 +1,31 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/attendance"
+        android:title="@string/map"></item>
+
+    <item
+        android:id="@+id/order"
+        android:title="@string/info"/>
+
+    <item
+        android:id="@+id/msg_all"
+        android:title="@string/report1" />
+    <item
+        android:id="@+id/report2"
+        android:title="@string/report2" />
+ <item
+        android:id="@+id/report3"
+        android:title="@string/Work_Reports" />
+
+
+    <item
+        android:id="@+id/msg_att"
+        android:title="@string/event"/>
+    <!--<item-->
+        <!--android:id="@+id/action_camera"-->
+        <!--android:icon="@drawable/ic_replaynoti"-->
+        <!--android:title="camera"/>-->
+
+</menu>

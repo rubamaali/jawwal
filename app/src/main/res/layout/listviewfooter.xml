@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/loadmore"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#eae8e8"
+    android:layoutDirection="ltr"
+    android:layout_height="30dp">
+    <ImageView
+        android:id="@+id/load"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="3dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/loadmore"/>
+    <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+        android:layout_toRightOf="@+id/load"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/loadMore"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimary"
+
+        android:layout_toEndOf="@+id/load" />
+</RelativeLayout>

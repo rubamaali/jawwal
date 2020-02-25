@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/v_control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                android:id="@+id/text_car2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#A4A69E"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <com.lite.pits_jawwal.pitstracklite.Fount.CustomTextViewB
+                android:id="@+id/text_veh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="@string/vehicle_control"
+                android:textColor="@color/color_text_black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/arrow"
+                android:backgroundTint="#DEDDDD"
+                android:gravity="center_vertical"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutstart"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="477dp">
+
+                    <TableRow
+                        android:id="@+id/vehicle_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img9"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:background="@drawable/status_back" />
+
+                            <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                                android:id="@+id/but_status"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBottom="@+id/img9"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="22dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp"
+                                android:background="@color/colorPrimary"
+                                android:text="@string/send"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="58dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/but_status"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="10dp"
+                                android:background="#ECF0F1"
+                                android:text="@string/status"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_text_black"
+                                android:textSize="15sp" />
+
+
+                        </RelativeLayout>
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/vehicle_control"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img10"
+                                android:layout_width="match_parent"
+                                android:layout_height="170dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_column="0"
+                                android:background="@drawable/control_back" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="14dp"
+                                android:background="#ECF0F1"
+                                android:text="@string/control"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_text_black"
+                                android:textSize="15dp" />
+
+                            <Spinner
+                                android:id="@+id/spinner"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_column="0"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginTop="47dp" />
+
+                            <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                                android:id="@+id/but_control"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignEnd="@+id/spinner"
+                                android:layout_alignLeft="@+id/spinner"
+                                android:layout_alignRight="@+id/spinner"
+                                android:layout_alignStart="@+id/spinner"
+                                android:layout_below="@+id/spinner"
+                                android:layout_column="0"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/colorPrimary"
+                                android:text="@string/send"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="15dp" />
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/vehicle_odometer"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img11"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/meters_back" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/textView3"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="13dp"
+                                android:background="#ECF0F1"
+                                android:text="@string/meters"
+                                android:textAlignment="center"
+                                android:textColor="@color/color_text_black"
+                                android:textSize="15dp" />
+
+                            <com.lite.pits_jawwal.pitstracklite.Fount.CustomEditeTextL
+                                android:id="@+id/edit_km"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_alignLeft="@+id/but_meter"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignStart="@+id/but_meter"
+                                android:layout_marginLeft="17dp"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_toLeftOf="@+id/textView3"
+                                android:layout_toStartOf="@+id/textView3"
+                                android:background="@drawable/textborder"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:text="0"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_above="@+id/but_meter"
+                                android:layout_alignEnd="@+id/but_meter"
+                                android:layout_alignRight="@+id/but_meter"
+                                android:layout_column="1"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginRight="15dp"
+                                android:gravity="center"
+                                android:text="@string/km"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
+
+                            <com.lite.pits_jawwal.pitstracklite.Fount.CustomButtonB
+                                android:id="@+id/but_meter"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/edit_km"
+                                android:layout_column="0"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/colorPrimary"
+                                android:text="@string/send"
+                                android:textAllCaps="false"
+                                android:textColor="#fff"
+                                android:textSize="15dp" />
+
+                        </RelativeLayout>
+
+                    </TableRow>
+
+
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
+
